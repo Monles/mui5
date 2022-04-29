@@ -14,6 +14,7 @@ import {
 import React, { useState } from "react";
 
 const StyledToolbar = styled(Toolbar)({
+  backgroundColor: "darksalmon",
   display: "flex",
   justifyContent: "space-between",
 });
