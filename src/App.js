@@ -17,10 +17,10 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box>
+      <Box bgcolor={"background.default"} color={"text.primary"}>
         <Navbar />
         <Stack direction="row" spacing={2} justifyContent="space-between">
-          <Sidebar />
+          <Sidebar setMode={setMode} mode={mode} />
           <Feed />
           <Rightbar />
         </Stack>
